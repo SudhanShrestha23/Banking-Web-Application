@@ -25,10 +25,13 @@ class BankAccount(models.Model):
         return str(self.account_id)
 
 # Has two account IDs. One for sender and reciever
-class Transactions(models.Model):
+class Transaction(models.Model):
     transaction_id = models.IntegerField(default=0, primary_key=True)
     sender_account_id = models.ForeignKey(BankAccount, on_delete=models.CASCADE, default=0)
     amount = models.FloatField(default=0)
     transation_date = models.FloatField(default=0)
     transaction_type = models.CharField(max_length=200, default='')
     receiver_account_id = models.CharField(max_length=10, default='')
+
+    def __str__(self):
+        return str(self.transaction_id)
