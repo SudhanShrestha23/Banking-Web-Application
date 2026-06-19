@@ -6,13 +6,15 @@ FIRST_NAMES = ["James", "Mary", "John", "Patricia", "Robert", "Jennifer", "Micha
             "William", "Elizabeth", "David", "Barbara", "Richard", "Susan", "Joseph", "Jessica",
             "Thomas", "Sarah", "Christopher", "Karen", "Daniel", "Nancy", "Matthew", "Lisa",
             "Anthony", "Betty", "Mark", "Margaret", "Donald", "Sandra", "Steven", "Ashley",
-            "Paul", "Kimberly", "Andrew", "Emily", "Joshua", "Donna", "Kenneth", "Michelle"]
+            "Paul", "Kimberly", "Andrew", "Emily", "Joshua", "Donna", "Kenneth", "Michelle"
+            ]
 
 LAST_NAMES = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis",
             "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas",
             "Taylor", "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson", "White",
             "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker", "Young",
-            "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", "Hill", "Flores"]
+            "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", "Hill", "Flores"
+            ]
 
 ACCOUNT_TYPES = ["Savings", "Checking", "Business", "Investment"]
 
